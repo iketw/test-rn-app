@@ -1,0 +1,55 @@
+{
+  "name": "@thirdweb-dev/react-native",
+  "version": "0.1.9",
+  "repository": "https://github.com/thirdweb-dev/js/tree/main/packages/react-native",
+  "author": "thirdweb eng <eng@thirdweb.com>",
+  "license": "Apache-2.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "sideEffects": false,
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint \"**/*.{js,ts,tsx}\"",
+    "fix": "eslint src/ --fix",
+    "clean": "rm -rf dist/",
+    "build": "tsc",
+    "push": "yalc push"
+  },
+  "keywords": [
+    "react-native",
+    "ios",
+    "android"
+  ],
+  "dependencies": {
+    "@coinbase/wallet-mobile-sdk": "^1.0.5",
+    "@shopify/restyle": "^2.4.1",
+    "@tanstack/react-query": "^4.0.10",
+    "@thirdweb-dev/chains": "0.1.6",
+    "@thirdweb-dev/react-core": "3.10.3",
+    "@thirdweb-dev/sdk": "3.10.3",
+    "@thirdweb-dev/storage": "1.1.0",
+    "@thirdweb-dev/wallets": "0.2.8",
+    "abitype": "^0.2.5",
+    "expo-secure-store": "~12.0.0",
+    "react-native-mmkv": "2.5.1",
+    "react-native-modal": "^13.0.1",
+    "react-native-svg": "^13.8.0",
+    "tiny-invariant": "^1.2.0"
+  },
+  "resolutions": {
+    "react-native-mmkv": "2.5.1"
+  },
+  "peerDependencies": {
+    "ethers": ">=5.5.1 <6",
+    "expo": "^47.0.0",
+    "react": ">=18.0.0",
+    "react-native": ">=0.70.0"
+  },
+  "engines": {
+    "node": ">= 16.0.0"
+  },
+  "yalcSig": "2be66349fdac8bc937cf76fb6a62010e"
+}

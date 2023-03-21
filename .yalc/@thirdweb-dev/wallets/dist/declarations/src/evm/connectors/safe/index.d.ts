@@ -1,0 +1,29 @@
+import { ConnectParams, TWConnector } from "../../interfaces/tw-connector";
+import { AbstractWallet } from "../../wallets/abstract";
+import type { SafeConnectionArgs } from "./types";
+import { ethers } from "ethers";
+import type { Signer } from "ethers";
+export declare class SafeConnector extends TWConnector<SafeConnectionArgs> {
+    static supportedChains: string[];
+    supportedChains: string[];
+    readonly id = "safe-wallet";
+    ready: boolean;
+    name: string;
+    previousConnector?: AbstractWallet;
+    private safeSigner?;
+    constructor();
+    connect(args: ConnectParams<SafeConnectionArgs>): Promise<string>;
+    private createSafeSigner;
+    disconnect(): Promise<void>;
+    getAddress(): Promise<string>;
+    getChainId(): Promise<number>;
+    getProvider(): Promise<ethers.providers.Provider>;
+    getSigner(): Promise<Signer>;
+    isConnected(): Promise<boolean>;
+    protected onAccountsChanged(accounts: string[]): void;
+    protected onDisconnect(): void;
+    switchChain(): Promise<void>;
+    updateChains(): void;
+    setupListeners(): Promise<void>;
+}
+//# sourceMappingURL=index.d.ts.map

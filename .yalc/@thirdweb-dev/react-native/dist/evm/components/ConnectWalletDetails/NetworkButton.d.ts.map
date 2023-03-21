@@ -1,0 +1,1 @@
+{"version":3,"file":"NetworkButton.d.ts","sourceRoot":"","sources":["../../../../src/evm/components/ConnectWalletDetails/NetworkButton.tsx"],"names":[],"mappings":";AAKA,UAAU,kBAAkB;IAC1B,YAAY,CAAC,EAAE,MAAM,CAAC;IACtB,SAAS,EAAE,MAAM,CAAC;IAClB,OAAO,EAAE,MAAM,IAAI,CAAC;CACrB;AAED,eAAO,MAAM,aAAa,0CAIvB,kBAAkB,gBAiBpB,CAAC"}

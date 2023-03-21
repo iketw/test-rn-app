@@ -1,0 +1,1 @@
+{"version":3,"file":"ChainIcon.d.ts","sourceRoot":"","sources":["../../../../src/evm/components/base/ChainIcon.tsx"],"names":[],"mappings":";AAOA,MAAM,MAAM,cAAc,GAAG;IAC3B,YAAY,CAAC,EAAE,MAAM,CAAC;IACtB,IAAI,EAAE,MAAM,CAAC;IACb,MAAM,CAAC,EAAE,OAAO,CAAC;CAClB,CAAC;AAEF,eAAO,MAAM,SAAS,mCAAoC,cAAc,gBASvE,CAAC"}

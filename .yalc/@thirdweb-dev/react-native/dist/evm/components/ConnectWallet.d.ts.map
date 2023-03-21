@@ -1,0 +1,1 @@
+{"version":3,"file":"ConnectWallet.d.ts","sourceRoot":"","sources":["../../../src/evm/components/ConnectWallet.tsx"],"names":[],"mappings":";AAAA,OAAO,EAAiB,kBAAkB,EAAE,MAAM,yBAAyB,CAAC;AAO5E,MAAM,MAAM,kBAAkB,GAAG;IAC/B,KAAK,CAAC,EAAE,kBAAkB,CAAC,OAAO,CAAC,CAAC;CACrC,CAAC;AAEF,eAAO,MAAM,aAAa,cAAe,kBAAkB,gBAwB1D,CAAC"}

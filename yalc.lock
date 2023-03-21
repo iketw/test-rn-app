@@ -1,0 +1,35 @@
+{
+  "version": "v1",
+  "packages": {
+    "@thirdweb-dev/auth": {
+      "signature": "217256eeeb0a605f18e938c2de262872",
+      "file": true
+    },
+    "@thirdweb-dev/chains": {
+      "signature": "a664f7e089cb61a9defa18e118759ca2",
+      "file": true
+    },
+    "@thirdweb-dev/react-core": {
+      "signature": "66296b70a5de8a73aaca8f04750507e4",
+      "file": true
+    },
+    "@thirdweb-dev/react-native": {
+      "signature": "2be66349fdac8bc937cf76fb6a62010e",
+      "file": true,
+      "replaced": "^0.2.0-nightly-20230321064225-9fdcf311"
+    },
+    "@thirdweb-dev/react-native-compat": {
+      "signature": "40942b58a82b5a866529b361514ad097",
+      "file": true,
+      "replaced": "^0.2.0-nightly-20230321064225-9fdcf311"
+    },
+    "@thirdweb-dev/sdk": {
+      "signature": "589874e77b0e39a662dc213fbf476160",
+      "file": true
+    },
+    "@thirdweb-dev/wallets": {
+      "signature": "47c50543b869b8caeab9f71e850cd875",
+      "file": true
+    }
+  }
+}

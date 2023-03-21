@@ -1,0 +1,15 @@
+$ jest
+watchman warning:  Recrawled this watch 323 times, most recently because:
+MustScanSubDirs UserDroppedTo resolve, please review the information on
+https://facebook.github.io/watchman/docs/troubleshooting.html#recrawl
+To clear this warning, run:
+`watchman watch-del '/Users/dalmendraytw/dev/thirdweb/js' ; watchman watch-project '/Users/dalmendraytw/dev/thirdweb/js'`
+
+PASS test/getChainByChainId.test.ts
+  ✓ expect chainId 5 to be goerli (1 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        3.681 s
+Ran all test suites.

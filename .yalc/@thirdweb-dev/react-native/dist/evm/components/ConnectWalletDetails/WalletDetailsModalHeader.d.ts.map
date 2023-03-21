@@ -1,0 +1,1 @@
+{"version":3,"file":"WalletDetailsModalHeader.d.ts","sourceRoot":"","sources":["../../../../src/evm/components/ConnectWalletDetails/WalletDetailsModalHeader.tsx"],"names":[],"mappings":";AAQA,UAAU,6BAA6B;IACrC,OAAO,EAAE,MAAM,CAAC;IAChB,iBAAiB,EAAE,MAAM,IAAI,CAAC;IAC9B,OAAO,CAAC,EAAE,OAAO,CAAC;CACnB;AAED,eAAO,MAAM,wBAAwB,6CAIlC,6BAA6B,gBA6B/B,CAAC"}
